@@ -1,0 +1,271 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Medium.eot');
+	src: url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+		url('Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Regular.eot');
+	src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		url('Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-Bold.eot');
+	src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Montserrat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('Montserrat-ThinItalic.eot');
+	src: url('Montserrat-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('Montserrat-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}
+
+/*----------------------------------------------------------------------*/
+
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+
+/*---------------------------------------------------------------------------*/
+
+body {
+	font-family: 'Montserrat';
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 40px;
+	color: #111010;
+	font-weight: 700;
+	line-height: 48px;
+}
+
+.content {
+	flex: 1 1 auto;
+}
+
+.container {
+	max-width: 1424px;
+	margin: 0 auto;
+}
+
+/*-------------------------LOGO-----------------------------------------*/
+
+.logo {
+	text-align: center;
+	padding: 44px 0 40px 0;
+}
+
+/*------------------------HEADER----------------------------------------*/
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.icon-search {}
+
+.right-menu {
+	display: flex;
+}
+
+.cart {
+	padding: 0 24px;
+}
+
+.favourite {
+	padding: 0 24px;
+}
+
+.profile {
+	padding: 0 24px;
+}
+
+.center-menu {}
+
+.menu__list {
+	list-style-type: none;
+	/*word-spacing: 44px;*/
+	text-transform: uppercase;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.menu__list li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.link {
+	color: #0A0A0A;
+}
+
+.menu__list li:hover {
+	color: #979797;
+}
+
+/*----------------SECOND BLOCK------------------------------------------------*/
+
+.header__page {
+	position: relative;
+}
+
+.header__block {
+	display: flex;
+	justify-content: center;
+	margin: 33px 0 80px 0;
+
+}
+
+.page__img {
+	position: absolute;
+}
+
+.rectangle {
+	width: 712px;
+	height: 402px;
+	background: rgba(0, 0, 0, 0.36);
+	position: relative;
+	left: 712px;
+	bottom: 16px;
+}
+
+
+.text {}
+
+.text h2 {
+	color: #FFFFFF;
+	padding: 50px 63px 30px 43px;
+
+}
+
+.text p {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #ECECEC;
+	padding: 0 63px 30px 43px;
+}
+
+.text button {
+	font-size: 16px;
+	font-weight: 700;
+	color: #000000;
+	width: 180px;
+	height: 52px;
+	text-transform: uppercase;
+	align-items: center;
+	margin: 0 auto 52px 43px;
+}
+
+/*---------------------------------------------------------------------*/
+
