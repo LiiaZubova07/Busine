@@ -1,38 +1,38 @@
 @font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Medium.eot');
-	src: url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
-		url('Montserrat-Medium.ttf') format('truetype');
+	font-family: "Montserrat";
+	src: url("Montserrat-Medium.eot");
+	src: url("Montserrat-Medium.eot?#iefix") format("embedded-opentype"),
+		url("Montserrat-Medium.ttf") format("truetype");
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Regular.eot');
-	src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-		url('Montserrat-Regular.ttf') format('truetype');
+	font-family: "Montserrat";
+	src: url("Montserrat-Regular.eot");
+	src: url("Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
+		url("Montserrat-Regular.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-Bold.eot');
-	src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-		url('Montserrat-Bold.ttf') format('truetype');
+	font-family: "Montserrat";
+	src: url("Montserrat-Bold.eot");
+	src: url("Montserrat-Bold.eot?#iefix") format("embedded-opentype"),
+		url("Montserrat-Bold.ttf") format("truetype");
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Montserrat';
-	src: url('Montserrat-ThinItalic.eot');
-	src: url('Montserrat-ThinItalic.eot?#iefix') format('embedded-opentype'),
-		url('Montserrat-ThinItalic.ttf') format('truetype');
+	font-family: "Montserrat";
+	src: url("Montserrat-ThinItalic.eot");
+	src: url("Montserrat-ThinItalic.eot?#iefix") format("embedded-opentype"),
+		url("Montserrat-ThinItalic.ttf") format("truetype");
 	font-weight: 100;
 	font-style: italic;
 	font-display: swap;
@@ -130,36 +130,38 @@ h6 {
 	font-weight: inherit;
 }
 
-
 /*---------------------------------------------------------------------------*/
 
 body {
-	font-family: 'Montserrat';
+	font-family: "Montserrat";
 }
 
 a {
 	text-decoration: none;
 }
 
-h2 {
+h1 {
 	font-size: 40px;
 	color: #111010;
 	font-weight: 700;
 	line-height: 48px;
 }
 
-.content {
+.header__container {
 	flex: 1 1 auto;
+	max-width: 1424px;
+	margin: 0 auto;
 }
 
-.container {
+.main__container {
+	flex: 1 1 auto;
 	max-width: 1424px;
 	margin: 0 auto;
 }
 
 /*-------------------------LOGO-----------------------------------------*/
 
-.logo {
+.header__logo {
 	text-align: center;
 	padding: 44px 0 40px 0;
 }
@@ -171,27 +173,25 @@ h2 {
 	justify-content: space-between;
 }
 
-.icon-search {}
-
-.right-menu {
+.header__icons {
 	display: flex;
 }
 
-.cart {
+.header__cart {
 	padding: 0 24px;
 }
 
-.favourite {
+.header__favourite {
 	padding: 0 24px;
 }
 
-.profile {
+.header__profile {
 	padding: 0 24px;
 }
 
-.center-menu {}
+.header__nav {}
 
-.menu__list {
+.header__list {
 	list-style-type: none;
 	/*word-spacing: 44px;*/
 	text-transform: uppercase;
@@ -200,33 +200,32 @@ h2 {
 	font-weight: 700;
 }
 
-.menu__list li {
+.header__list li {
 	display: inline-block;
 	padding: 0 20px;
 }
 
 .link {
-	color: #0A0A0A;
+	color: #0a0a0a;
 }
 
-.menu__list li:hover {
+.header__list li:hover {
 	color: #979797;
 }
 
 /*----------------SECOND BLOCK------------------------------------------------*/
 
-.header__page {
+.main__section {
 	position: relative;
 }
 
-.header__block {
+.main__block {
 	display: flex;
 	justify-content: center;
 	margin: 33px 0 80px 0;
-
 }
 
-.page__img {
+.main__block_img {
 	position: absolute;
 }
 
@@ -239,24 +238,20 @@ h2 {
 	bottom: 16px;
 }
 
-
-.text {}
-
-.text h2 {
-	color: #FFFFFF;
+.rectangle h1 {
+	color: #ffffff;
 	padding: 50px 63px 30px 43px;
-
 }
 
-.text p {
+.rectangle p {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 28px;
-	color: #ECECEC;
+	color: #ececec;
 	padding: 0 63px 30px 43px;
 }
 
-.text button {
+.rectangle button {
 	font-size: 16px;
 	font-weight: 700;
 	color: #000000;
@@ -268,4 +263,3 @@ h2 {
 }
 
 /*---------------------------------------------------------------------*/
-
