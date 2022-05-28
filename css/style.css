@@ -134,6 +134,19 @@ h6 {
 
 body {
 	font-family: "Montserrat";
+	overflow-x: hidden;
+}
+
+main {
+	flex: 1 1 auto;
+	max-width: 1424px;
+	margin: 0 auto;
+}
+
+footer {
+	flex: 1 1 auto;
+	max-width: 1424px;
+	margin: 0 auto;
 }
 
 a {
@@ -155,17 +168,16 @@ p {
 }
 
 
-container {}
-
-footer {
-	flex: 1 1 auto;
-	max-width: 1424px;
+container {
+	min-width: 1424px;
 	margin: 0 auto;
 }
 
+
+
 /*------------------------HEADER----------------------------------------*/
 
-header {
+.header {
 	flex: 1 1 auto;
 	max-width: 1424px;
 	margin: 0 auto;
@@ -223,44 +235,38 @@ header {
 
 /*----------------HERO-BANNER------------------------------------------------*/
 
-main {
-	flex: 1 1 auto;
-	max-width: 1424px;
-	margin: 0 auto;
-}
-
-
 .hero-banner {
 	position: relative;
 }
 
 .hero-banner__image-wrapper {
-	display: flex;
-	justify-content: center;
 	margin: 33px 0 80px 0;
+	position: absolute;
+	left: 50%;
+	transform: transplateX(-50%);
 }
 
 .hero-banner__image {
-	position: absolute;
+
 }
 
-.rectangle {
+.hero-banner__rectangle {
 	width: 712px;
 	height: 402px;
 	background: rgba(0, 0, 0, 0.36);
 	position: relative;
 	left: 712px;
 	bottom: 16px;
+	margin-left: auto;
+	padding: 4rem;
 }
 
 .rectangle h1 {
 	color: #ffffff;
-	padding: 50px 63px 30px 43px;
 }
 
 .rectangle p {
 	color: #ececec;
-	padding: 0 63px 30px 43px;
 	text-align: left;
 }
 
@@ -280,7 +286,7 @@ main {
 /*------------------------------------------VISION------------------------------*/
 
 .vision {
-	position: relative;
+	position: absolute;
 
 }
 
@@ -288,21 +294,22 @@ main {
 	display: flex;
 	justify-content: flex-end;
 	margin-left: 121px;
-	width: 1301px;
 }
 
 .vision-banner__image {
 	position: absolute;
-	}
+	
+}
 
 .vision__block {
-	position: absolute;
+	position: relative;
 	background-color: #F7F7F7;
 	width: 708px;
 	height: 402px;
 	text-align: left;
 	padding: 50px 55px 52px 43px;
 	top: 62px;
+	
 }
 
 .vision__block h1 {
