@@ -237,6 +237,8 @@ container {
 
 .hero-banner {
 	position: relative;
+	margin-top: 2rem;
+	height: 526px;
 }
 
 .hero-banner__image-wrapper {
@@ -261,16 +263,20 @@ container {
 	padding: 4rem;
 }
 
-.rectangle h1 {
+.hero-banner__rectangle > *:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+.hero-banner__rectangle h1 {
 	color: #ffffff;
 }
 
-.rectangle p {
+.hero-banner__rectangle p {
 	color: #ececec;
 	text-align: left;
 }
 
-.rectangle button {
+.hero-banner__rectangle button {
 	font-size: 16px;
 	font-weight: 700;
 	color: #000000;
@@ -279,7 +285,6 @@ container {
 	height: 52px;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 0 auto 52px 43px;
 	line-height: 20px;
 }
 
@@ -291,8 +296,7 @@ container {
 }
 
 .vision__image-wrapper {
-	display: flex;
-	justify-content: flex-end;
+	position: absolute;
 	margin-left: 121px;
 }
 
@@ -306,7 +310,6 @@ container {
 	background-color: #F7F7F7;
 	width: 708px;
 	height: 402px;
-	text-align: left;
 	padding: 50px 55px 52px 43px;
 	top: 62px;
 	
