@@ -147,6 +147,13 @@ h1 {
 	line-height: 48px;
 }
 
+p {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #616161
+}
+
 
 container {}
 
@@ -252,22 +259,70 @@ main {
 }
 
 .rectangle p {
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 28px;
 	color: #ececec;
 	padding: 0 63px 30px 43px;
+	text-align: left;
 }
 
 .rectangle button {
 	font-size: 16px;
 	font-weight: 700;
 	color: #000000;
+	background-color: #FFFFFF;
 	width: 180px;
 	height: 52px;
 	text-transform: uppercase;
-	align-items: center;
+	text-align: center;
 	margin: 0 auto 52px 43px;
+	line-height: 20px;
 }
 
-/*---------------------------------------------------------------------*/
+/*------------------------------------------VISION------------------------------*/
+
+.vision {
+	position: relative;
+
+}
+
+.vision__image-wrapper {
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 121px;
+	width: 1301px;
+}
+
+.vision-banner__image {
+	position: absolute;
+	}
+
+.vision__block {
+	position: absolute;
+	background-color: #F7F7F7;
+	width: 708px;
+	height: 402px;
+	text-align: left;
+	padding: 50px 55px 52px 43px;
+	top: 62px;
+}
+
+.vision__block h1 {
+	margin-bottom: 30px;
+}
+
+.vision__block p {
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.vision__block button {
+	width: 180px;
+	height: 52px;
+	background-color: #111010;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 52px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+}
