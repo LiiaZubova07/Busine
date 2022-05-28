@@ -147,17 +147,12 @@ h1 {
 	line-height: 48px;
 }
 
-.header__container {
+.header {
 	flex: 1 1 auto;
 	max-width: 1424px;
 	margin: 0 auto;
 }
 
-.main__container {
-	flex: 1 1 auto;
-	max-width: 1424px;
-	margin: 0 auto;
-}
 
 /*-------------------------LOGO-----------------------------------------*/
 
@@ -168,7 +163,7 @@ h1 {
 
 /*------------------------HEADER----------------------------------------*/
 
-.menu {
+.header__menu {
 	display: flex;
 	justify-content: space-between;
 }
@@ -215,17 +210,17 @@ h1 {
 
 /*----------------SECOND BLOCK------------------------------------------------*/
 
-.main__section {
+.hero-banner {
 	position: relative;
 }
 
-.main__block {
+.hero-banner__image-wrapper {
 	display: flex;
 	justify-content: center;
 	margin: 33px 0 80px 0;
 }
 
-.main__block_img {
+.hero-banner__image {
 	position: absolute;
 }
 
