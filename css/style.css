@@ -137,16 +137,8 @@ body {
 	overflow-x: hidden;
 }
 
-main {
-	flex: 1 1 auto;
-	max-width: 1424px;
-	margin: 0 auto;
-}
-
-footer {
-	flex: 1 1 auto;
-	max-width: 1424px;
-	margin: 0 auto;
+main > *:not(:last-child) {
+	margin-bottom: 4rem;
 }
 
 a {
@@ -167,13 +159,16 @@ p {
 	color: #616161
 }
 
-
-container {
-	min-width: 1424px;
+footer {
+	flex: 1 1 auto;
+	max-width: 1424px;
 	margin: 0 auto;
 }
 
-
+.container {
+	max-width: 1424px;
+	margin: 0 auto;
+}
 
 /*------------------------HEADER----------------------------------------*/
 
@@ -242,25 +237,24 @@ container {
 }
 
 .hero-banner__image-wrapper {
-	margin: 33px 0 80px 0;
 	position: absolute;
 	left: 50%;
-	transform: transplateX(-50%);
+	transform: translateX(-50%);
 }
 
-.hero-banner__image {
-
+.hero-banner__rectangle-wrapper {
+	height: 100%;
+	display: flex;
+	align-items: center;
 }
 
 .hero-banner__rectangle {
+	position: relative;
+	margin-left: auto;
+	padding: 4rem;
 	width: 712px;
 	height: 402px;
 	background: rgba(0, 0, 0, 0.36);
-	position: relative;
-	left: 712px;
-	bottom: 16px;
-	margin-left: auto;
-	padding: 4rem;
 }
 
 .hero-banner__rectangle > *:not(:last-child) {
@@ -291,18 +285,15 @@ container {
 /*------------------------------------------VISION------------------------------*/
 
 .vision {
-	position: absolute;
-
+	position: relative;
+	height: 526px;
+	display: flex;
+	align-items: center;
 }
 
 .vision__image-wrapper {
 	position: absolute;
 	margin-left: 121px;
-}
-
-.vision-banner__image {
-	position: absolute;
-	
 }
 
 .vision__block {
@@ -311,8 +302,6 @@ container {
 	width: 708px;
 	height: 402px;
 	padding: 50px 55px 52px 43px;
-	top: 62px;
-	
 }
 
 .vision__block h1 {
