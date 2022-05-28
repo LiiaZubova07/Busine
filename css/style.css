@@ -147,31 +147,31 @@ h1 {
 	line-height: 48px;
 }
 
-.header {
+
+container {}
+
+footer {
 	flex: 1 1 auto;
 	max-width: 1424px;
 	margin: 0 auto;
-}
-
-main {
-	flex: 1 1 auto;
-	max-width: 1424px;
-	margin: 0 auto;
-}
-
-
-/*-------------------------LOGO-----------------------------------------*/
-
-.header__logo {
-	text-align: center;
-	padding: 44px 0 40px 0;
 }
 
 /*------------------------HEADER----------------------------------------*/
 
+header {
+	flex: 1 1 auto;
+	max-width: 1424px;
+	margin: 0 auto;
+}
+
 .header__menu {
 	display: flex;
 	justify-content: space-between;
+}
+
+.header__logo {
+	text-align: center;
+	padding: 44px 0 40px 0;
 }
 
 .header__icons {
@@ -215,6 +215,13 @@ main {
 }
 
 /*----------------HERO-BANNER------------------------------------------------*/
+
+main {
+	flex: 1 1 auto;
+	max-width: 1424px;
+	margin: 0 auto;
+}
+
 
 .hero-banner {
 	position: relative;
