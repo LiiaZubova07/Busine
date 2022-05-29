@@ -203,7 +203,7 @@ footer {
 
 .header__logo {
 	text-align: center;
-	padding: 44px 0 40px 0;
+	padding: 44px 0;
 }
 
 .header__icons {
@@ -320,7 +320,7 @@ footer {
 	background-color: #F7F7F7;
 	width: 708px;
 	height: 402px;
-	padding: 50px 55px 52px 43px;
+	padding: 50px;
 }
 
 .vision__block h1 {
