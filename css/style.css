@@ -137,7 +137,7 @@ body {
 	overflow-x: hidden;
 }
 
-main > *:not(:last-child) {
+main>*:not(:last-child) {
 	margin-bottom: 4rem;
 }
 
@@ -146,10 +146,26 @@ a {
 }
 
 h1 {
-	font-size: 40px;
 	color: #111010;
+	font-size: 40px;
 	font-weight: 700;
 	line-height: 48px;
+}
+
+h2 {
+	color: #111010;
+	font-size: 26px;
+	font-weight: 100;
+	font-style: italic;
+	line-height: 26px;
+}
+
+h3 {
+	color: rgba(17, 16, 16, 0.5);
+	font-size: 16px;
+	font-weight: 100;
+	font-style: italic;
+	line-height: 26px;
 }
 
 p {
@@ -257,7 +273,7 @@ footer {
 	background: rgba(0, 0, 0, 0.36);
 }
 
-.hero-banner__rectangle > *:not(:last-child) {
+.hero-banner__rectangle>*:not(:last-child) {
 	margin-bottom: 2rem;
 }
 
@@ -325,3 +341,34 @@ footer {
 	font-weight: 700;
 	line-height: 20px;
 }
+
+/*-----------------------------CARDS----------------------------------------------*/
+
+.cards {}
+
+.cards__text-block {
+	text-align: center;
+/*position: relative;*/
+}
+
+hr {
+	background-color: #C4C4C4;
+	height: 5px;
+	width: 150px;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	/*position: absolute;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)*/
+}
+.cards__image-block {}
+
+.first-card {}
+
+.second-card {}
+
+.third-card {}
+
+.fourth-card {}
