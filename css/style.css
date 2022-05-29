@@ -141,6 +141,7 @@ main>*:not(:last-child) {
 	margin-bottom: 4rem;
 }
 
+
 a {
 	text-decoration: none;
 }
@@ -166,6 +167,7 @@ h3 {
 	font-weight: 100;
 	font-style: italic;
 	line-height: 26px;
+	padding-top: 3px;
 }
 
 p {
@@ -250,6 +252,7 @@ footer {
 	position: relative;
 	margin-top: 2rem;
 	height: 526px;
+
 }
 
 .hero-banner__image-wrapper {
@@ -344,11 +347,17 @@ footer {
 
 /*-----------------------------CARDS----------------------------------------------*/
 
-.cards {}
+.cards {
+}
 
 .cards__text-block {
 	text-align: center;
-/*position: relative;*/
+	margin-bottom: 40px;
+	/*position: relative;*/
+}
+
+.cards__text-block h1 {
+	margin-bottom: 20px;
 }
 
 hr {
@@ -358,12 +367,19 @@ hr {
 	border: none;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 30px;
 	/*position: absolute;
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%)*/
 }
-.cards__image-block {}
+
+.cards__image-block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+}
 
 .first-card {}
 
@@ -372,3 +388,19 @@ hr {
 .third-card {}
 
 .fourth-card {}
+
+.first-card_text {
+	padding-top: 34px;
+	padding-bottom: 50px;
+}
+
+.cards button {
+	background-color: #111010;
+	color: #FFFFFF;
+	width: 180px;
+	height: 52px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+}
