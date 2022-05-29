@@ -348,6 +348,9 @@ footer {
 /*-----------------------------CARDS----------------------------------------------*/
 
 .cards {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .cards__text-block {
@@ -377,9 +380,10 @@ hr {
 .cards__image-block {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 	text-align: center;
+	gap: 30px;
 }
+
 
 .first-card {}
 
@@ -403,4 +407,5 @@ hr {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 16px;
+	margin-bottom: 80px;
 }
