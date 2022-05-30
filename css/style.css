@@ -201,6 +201,7 @@ footer {
 	flex: 1 1 auto;
 	max-width: 1424px;
 	margin: 0 auto;
+
 }
 
 .container {
@@ -430,9 +431,57 @@ hr {
 	margin-bottom: 80px;
 }
 
-/*-----------------------------------PRODUCT-------------------------------------------*/
+/*------------------------------------FOOTER----------------------------------*/
 
-.product {
+.footer {
+
+	height: 304px;
+	background-color: black;
+	max-width: 1924px;
+	display: block;
+	align-items: center;
+}
+.footer__logo-block {
+}
+.footer__sotials {
+}
+.footer__information {
+}
+.footer__first-block {
+}
+.footer__second-block {
+}
+.footer__third-block {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------PRODUCT-------------------------------------------*/
+
+ .product {
 	display: flex;
 	justify-content: space-around;
 	position: relative;
@@ -440,12 +489,20 @@ hr {
 
 .product__image {}
 
-.product__image-big {}
+.product__image-big {
+	display: block;
+}
 
-.product__image-small {}
+.product__image-small {
+	margin: 27px 25px auto 43px;
+}
 
-.product__image-small small-image {}
-
+.product__image-small small-image {
+	display:inline-block;
+width: 159px;
+height: 144px;
+padding: 30px;
+}
 
 
 .product__name {
@@ -478,75 +535,7 @@ span {
 	text-transform: uppercase;
 }
 
-/*-----------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.custom-checkbox {
-
-}
-
-input [type="checkbox"] {
-	height: 150px;
-	width: 150px;
-	background-color: #fff;
-	position: relative;
-	outline: none;
--webkit-appearance: none;
-transform: rotate(45deg);
-}
-
-input [type="checkbox"]::before {
-	position: absolute;
-	content: "";
-	background-color: black;
-	height: 60%;
-	width: 100%;
-	top: -59%;
-	border-radius: 75px 75px 0 0;
-}
-
-input  [type="checkbox"]::after{
-	position: absolute;
-	content: "";
-	background-color: black;
-	height: 60%;
-	width: 100%;
-	transform: rotate(-90deg);
-	border-radius: 75px 75px 0 0;
-	top: 20%;
-	right: 79%
-}
-
-input [type="checkbox"]:checked,
-input:checked[type="checkbox"]::before,
-input:checked [type="checkbox"]:after {
-	background-color: black;
+.custom-checkbox {
 }
 
 
@@ -566,4 +555,4 @@ input:checked [type="checkbox"]:after {
 li::before {
 	content: "";
 padding-right: 1rem;
-}*/
+}
