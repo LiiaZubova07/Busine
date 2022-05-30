@@ -431,6 +431,10 @@ hr {
 	margin-bottom: 80px;
 }
 
+.list {
+
+}
+
 /*------------------------------------FOOTER----------------------------------*/
 
 .footer {
@@ -445,14 +449,21 @@ hr {
 }
 .footer__sotials {
 }
-.footer__information {
+.footer__column {
+	color: #A4A4A4;
+	list-style-type: none;
 }
 .footer__first-block {
 }
+.footer__list-first {
+}
 .footer__second-block {
+}
+.footer__list-second {
 }
 .footer__third-block {
 }
+
 
 
 
