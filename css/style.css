@@ -112,9 +112,6 @@ a:hover {
 	text-decoration: none;
 }
 
-ul li {
-	list-style: none;
-}
 
 img {
 	vertical-align: top;
@@ -168,6 +165,13 @@ h3 {
 	font-style: italic;
 	line-height: 26px;
 	padding-top: 3px;
+}
+
+h4 {
+	color: #000000;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 45px;
 }
 
 p {
@@ -409,3 +413,146 @@ hr {
 	font-size: 16px;
 	margin-bottom: 80px;
 }
+
+/*-----------------------------------PRODUCT-------------------------------------------*/
+
+.product {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+
+.product__image {}
+
+.product__image-big {}
+
+.product__image-small {
+
+}
+
+.product__image-small small-image {
+}
+
+
+
+.product__name {
+	padding: 0 43px 0 60px;
+}
+
+.product__name-text {}
+
+
+
+.product__button {}
+
+
+.product__first-button {}
+
+span {
+	cursor: pointer;
+}
+
+.product__first-button {
+
+}
+
+.product__button button {
+	background-color: #22222B;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-style: 20px;
+	line-height: 24px;
+	width: 221px;
+	height: 65px;
+	text-transform: uppercase;
+	}
+
+/*-----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.custom-checkbox {
+
+}
+
+input [type="checkbox"] {
+	height: 150px;
+	width: 150px;
+	background-color: #fff;
+	position: relative;
+	outline: none;
+-webkit-appearance: none;
+transform: rotate(45deg);
+}
+
+input [type="checkbox"]::before {
+	position: absolute;
+	content: "";
+	background-color: black;
+	height: 60%;
+	width: 100%;
+	top: -59%;
+	border-radius: 75px 75px 0 0;
+}
+
+input  [type="checkbox"]::after{
+	position: absolute;
+	content: "";
+	background-color: black;
+	height: 60%;
+	width: 100%;
+	transform: rotate(-90deg);
+	border-radius: 75px 75px 0 0;
+	top: 20%;
+	right: 79%
+}
+
+input [type="checkbox"]:checked,
+input:checked[type="checkbox"]::before,
+input:checked [type="checkbox"]:after {
+	background-color: black;
+}
+
+
+.list {
+	width: 308px;
+	height: 101px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	margin: 20px;
+	}
+
+	.list li {
+
+	}
+
+li::before {
+	content: "";
+padding-right: 1rem;
+}*/
