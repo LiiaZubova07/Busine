@@ -431,68 +431,11 @@ hr {
 	margin-bottom: 80px;
 }
 
-.list {
-
-}
-
-/*------------------------------------FOOTER----------------------------------*/
-
-.footer {
-
-	height: 304px;
-	background-color: black;
-	max-width: 1924px;
-	display: block;
-	align-items: center;
-}
-.footer__logo-block {
-}
-.footer__sotials {
-}
-.footer__column {
-	color: #A4A4A4;
-	list-style-type: none;
-}
-.footer__first-block {
-}
-.footer__list-first {
-}
-.footer__second-block {
-}
-.footer__list-second {
-}
-.footer__third-block {
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.list {}
 
 /*---------------------------PRODUCT-------------------------------------------*/
 
- .product {
+.product {
 	display: flex;
 	justify-content: space-around;
 	position: relative;
@@ -509,10 +452,10 @@ hr {
 }
 
 .product__image-small small-image {
-	display:inline-block;
-width: 159px;
-height: 144px;
-padding: 30px;
+	display: inline-block;
+	width: 159px;
+	height: 144px;
+	padding: 30px;
 }
 
 
@@ -546,8 +489,7 @@ span {
 	text-transform: uppercase;
 }
 
-.custom-checkbox {
-}
+.custom-checkbox {}
 
 
 .list {
@@ -557,13 +499,94 @@ span {
 	font-size: 18px;
 	line-height: 27px;
 	margin: 20px;
-	}
+}
 
-	.list li {
-
-	}
+.list li {}
 
 li::before {
 	content: "";
-padding-right: 1rem;
+	padding-right: 16px;
 }
+
+/*------------------------------------FOOTER----------------------------------*/
+
+.footer {
+	height: 304px;
+	background-color: black;
+	max-width: 1920px;
+	display: block;
+	align-items: center;
+	display: flex;
+}
+
+.footer__logo-block {
+	margin: 68px auto 82px 0;
+}
+
+.footer__sotials {
+	margin: 82px auto 42px 0;
+}
+
+.footer__logo-block p {
+	font-weight: 400;
+	font-size: 9px;
+	line-height: 11px;
+	align-items: center;
+	letter-spacing: 0.183333px;
+}
+
+.footer__column {
+	color: #A4A4A4;
+
+}
+
+.footer__column h5 {
+	padding: 68px auto 15px auto;
+}
+
+.footer__column ul {
+	list-style-type: none;
+
+
+}
+
+.footer__first-block {
+
+}
+
+.footer__list-first {}
+
+.footer__second-block {
+	
+}
+
+.footer__list-second {}
+
+.footer__third-block {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
