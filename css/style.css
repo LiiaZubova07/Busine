@@ -472,63 +472,58 @@ hr {
 
 
 
-.product__button {}
+.product__button {
+	display: flex;
+}
+
+.product__button {
+	display: flex;
+	font-size: 24px;
+}
 
 * {
 	box-sizing: border-box;
 }
 
 .product__first-button {
-	margin: 30px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #e5e5e5;
-	font-size: 0;
-	width: 280px;
+  display: flex;
+  justify-content: center;
+	margin: 50px 11px 20px 0;
+	border: 1px solid #000000;
+	width: 195px;
 }
+	.first-button__btn {
+		font-family: montserrat;
+		color: #000000;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 24px;
+		text-align: center;
+		width: 64px;
+		height: 65px;
+		display: inline-block;
+		/*border: 0;*/
+		background: transparent;
+	}
 
+	.first-button__input {
+		width: 50px;
+		height: 65px;
+		/*border: 0;*/
+		text-align: center;
+	}
 
-
-span {
-	cursor: pointer;
-}
-
-.first-button__btn {
-	color: #283645;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 30px;
-	text-align: center;
-	width: 59px;
-	height: 59px;
-	display: inline-block;
-	border: 0;
-	background: transparent;
-}
-
-
-.first-button__input {
-	width: calc(152px);
-	height: 59px;
-	border: 0;
-	border-left: 2px solid #e5e5e5;
-	border-right: 2px solid #e5e5e5;
-	text-align: center;
-}
-
-
-.product__second-button {
-	background-color: #22222B;
-	color: #FFFFFF;
-	font-weight: 400;
-	font-style: 20px;
-	line-height: 24px;
-	width: 221px;
-	height: 65px;
-	text-transform: uppercase;
-}
-
-.custom-checkbox {}
+	.product__second-button {
+		background-color: #22222B;
+		color: #FFFFFF;
+		font-weight: 400;
+		font-style: 20px;
+		line-height: 24px;
+		width: 221px;
+		height: 65px;
+		text-transform: uppercase;
+		margin: 50px 13px 20px 13px;
+	}
 
 
 .list {
