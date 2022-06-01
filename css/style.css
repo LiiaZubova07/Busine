@@ -522,6 +522,22 @@ hr {
 	margin: 50px 13px 20px 13px;
 }
 
+.custom-checkbox {
+	width: 62px;
+	height: 65px;
+	border: 1px solid #000000;
+	margin-top: 50px;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.custom-checkbox img {
+	height: 50px;
+	width: 50px;
+}
+
 
 .list {
 	width: 308px;
