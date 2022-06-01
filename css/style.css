@@ -434,6 +434,7 @@ hr {
 	display: flex;
 	justify-content: space-around;
 	position: relative;
+	margin-bottom: 80px;
 }
 
 .product__image {}
@@ -539,24 +540,73 @@ hr {
 .footer {
 	background-color: #111010;
 	color: #FFFFFF;
-}
 
+}
 
 .footer__wrapper {
+	display: grid;
+	grid-template-columns: 250px 1fr ;
+	padding-top: 68px;
+	padding-bottom: 26px;
+	gap: 292px;
 }
+
+
 .footer__logo-block {
+	display: block;
+	flex-direction: column;
+	align-items: flex-start;
 }
+
+.footer__logo {
+	padding: 0 0 80px 0;
+}
+
 .footer__sotials {
+padding: 0 0 42px 0;
 }
+
+.footer__icon {
+padding: 0 15px 0 0;
+}
+
+.footer__text {
+color: #FFFFFF;
+padding: 0 0 26px 0;
+font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+}
+
+
 .footer__column {
+display: flex;
 }
+
+.footer__column h5 {
+padding: 0 0 15px 0;
+}
+
+.footer__column li {
+	padding: 0 0 9px 0;
+	list-style-type: none;
+}
+
+
+
 .footer__first-block {
+	padding: 0 190px 26px 0;
 }
 .footer__list-first {
 }
 .footer__second-block {
+padding: 0 160px 128px 0;
 }
 .footer__list-second {
 }
 .footer__third-block {
+	padding: 0 0 128px 0;
+}
+.footer__list-third {
+
 }
