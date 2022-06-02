@@ -538,9 +538,9 @@ hr {
 	display: grid;
 	place-items: center;
 }
+
 .custom-checkbox label {
-	bottom: 2rem;
-	right: 2rem;
+	padding-top: 5px;
 }
 
 .heart {
@@ -554,7 +554,6 @@ hr {
 
 .custom-checkbox input:checked ~ .heart {
 	border-image: radial-gradient(rgb(255, 0, 0) 69%,#0000 70%) 84.5% fill/100%;
-	opacity: .8;
 }
 
 .list {
