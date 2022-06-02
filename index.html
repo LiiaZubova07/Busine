@@ -179,8 +179,14 @@
             <button class="product__second-button">Add to cart</button>
 
             <div class="custom-checkbox">
-              <input type="checkbox" id="heart" checked />
-              <label for="heart"></label>
+              <label>
+                <input
+                  type="checkbox"
+                  class="sr-only"
+                  data-book-id='${bookId}'
+                >
+                <div class="heart"></div>
+              </label>
             </div>
           </div>
 
