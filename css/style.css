@@ -518,6 +518,7 @@ hr {
 
 .custom-checkbox input[type="checkbox"] {
 	display: none;
+}
 .custom-checkbox label {
 	padding-top: 5px;
 }
